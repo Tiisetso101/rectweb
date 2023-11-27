@@ -11,7 +11,7 @@ const Header = ({subtitle}: Args) => {
                 <img src={logo} className="logo" alt="logo"></img> 
 
             </div>
-            <div className="col-7 mt-5 subtitle"></div>
+            <div className="col-7 mt-5 subtitle">{subtitle}</div>
         </header>
     )
 }
